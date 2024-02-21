@@ -40,3 +40,7 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+vars:
+  surrogate_key_treat_nulls_as_empty_strings: true 
+  payment_type_values: [1, 2, 3, 4, 5, 6]

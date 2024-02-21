@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: staging
+    database: groovy-ace-412002
+     # For postgres:
+      #database: production
+    schema: ny_taxi
+
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: green_taxidata
+      - name: yellow_taxidata
+         # freshness:
+           # error_after: {count: 6, period: hour}
+
