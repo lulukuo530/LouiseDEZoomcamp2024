@@ -13,4 +13,5 @@ sources:
       - name: yellow_taxidata
          # freshness:
            # error_after: {count: 6, period: hour}
+      - name: fav_2019
 
